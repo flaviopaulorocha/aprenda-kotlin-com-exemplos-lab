@@ -16,17 +16,19 @@ fun matricular() {
     var usuario1 = Usuario("Ana", 1)
     var usuario2 = Usuario("Flavio", 2)
     var formacao1 = Formacao("Mobile Android Kotlin", listOf(conteudo1, conteudo2))
+    println("=".repeat(100))
     println("Usuário: ${usuario1.nome} Id: 000${usuario1.id}")
     println("Matriculado na Formação: ${formacao1.nome} ")
     println("Conteúdos Educacionais: ${conteudo1.nome} e ${conteudo2.nome}, com duração de ${conteudo1.duracao} horas cada.")
     println("Nível inicial da Formação: ${Nivel.valueOf("BASICO")}")
     println("Nível final da Formação: ${Nivel.valueOf("INTERMEDIARIO")}")
-    println("==================================================================================")
+    println("=".repeat(100))
     println("Usuário: ${usuario2.nome} Id: 000${usuario2.id}")
     println("Matriculado na Formação: ${formacao1.nome} ")
     println("Conteúdos Educacionais: ${conteudo1.nome} e ${conteudo2.nome}, com duração de ${conteudo1.duracao} horas cada.")
     println("Nível inicial da Formação: ${Nivel.valueOf("BASICO")}")
     println("Nível final da Formação: ${Nivel.valueOf("INTERMEDIARIO")}")
+    println("=".repeat(100))
 }
 
 fun main() {
